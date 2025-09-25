@@ -3,7 +3,7 @@ layout: post
 title:  "Transformers Learn to Implement Multi-step Gradient Descent with Chain of Thought"
 date:   2025-02-28 22:00:00 +00:00
 categories: research
-authors: "<strong>Jianhao Huang</strong>, Zixuan Wang, Jason D. Lee"
+authors: "<strong>Jianhao Huang*</strong>, Zixuan Wang*, Jason D. Lee"
 venue: "ICLR 2025 (spotlight, top 5.1%)"
 arxiv: https://arxiv.org/abs/2502.21212
 code: 
