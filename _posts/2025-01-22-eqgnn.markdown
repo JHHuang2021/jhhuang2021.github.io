@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Designing General & Expressive Quantum Graph Neural Networks for MILP Representations"
+title:  "On Designing General and Expressive Quantum Graph Neural Networks with Applications to MILP Instance Representation"
 date:   2025-01-22 22:00:00 +00:00
 categories: research
 authors: "Xinyu Ye, Hao Xiong, <strong>Jianhao Huang</strong>, Ziang Chen, Jia Wang, Junchi Yan"
