@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Scaling Point-based Differentiable Rendering for Large Scale 3D Reconstruction"
+date:   2025-04-18
+categories: research
+authors: "in submission"
+venue: "in submission"
+arxiv:
+code: 
+website: 
+---
