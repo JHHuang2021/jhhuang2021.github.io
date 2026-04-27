@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "How Transformers Learn to Plan via Multi-Token Prediction"
+date:   2026-04-13
+categories: research
+authors: "<strong>Jianhao Huang*</strong>, Zhanpeng Zhou*, Renqiu Xia, Baharan Mirzasoleiman, Weijie Su, Wei Huang"
+venue: 
+arxiv: https://arxiv.org/abs/2604.11912
+code: 
+website: 
+---

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Tuning the Implicit Regularizer of Masked Diffusion Language Models: Enhancing Generalization via Insights from $k$-Parity"
+date:   2026-01-30
+categories: research
+authors: "<strong>Jianhao Huang</strong>, Baharan Mirzasoleiman"
+venue: 
+arxiv: https://arxiv.org/abs/2601.22450
+code: 
+website: 
+---
