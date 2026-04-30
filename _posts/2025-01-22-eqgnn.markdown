@@ -4,7 +4,7 @@ title:  "On Designing General and Expressive Quantum Graph Neural Networks with 
 date:   2025-01-22
 categories: research
 authors: "Xinyu Ye, Hao Xiong, <strong>Jianhao Huang</strong>, Ziang Chen, Jia Wang, Junchi Yan"
-venue: "ICLR (Poster)"
+venue: "ICLR (poster)"
 pdf: https://openreview.net/pdf?id=IQi8JOqLuv
 arxiv: 
 code: 
