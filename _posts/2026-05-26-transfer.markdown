@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Why is A+B Better Than B? A Simple Graph Perspective on Task Transfer"
+date:   2026-05-26
+categories: research
+authors: "Dang Nguyen*, <strong>Jianhao Huang*</strong>, Ali Payani, Baharan Mirzasoleiman"
+venue: "ICML 2026 Workshop"
+pdf: https://hsgser.github.io/assets/pdf/skill_composition_fogen_icml2026.pdf
+arxiv: 
+code: 
+website: 
+---
