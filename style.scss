@@ -120,3 +120,24 @@ span.highlight {
 .pub-links {
   white-space: nowrap;
 }
+
+p.info-item {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 4px;
+  align-items: baseline;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+p.info-item > strong {
+  white-space: nowrap;
+}
+
+p.info-item > span {
+  min-width: 0;
+}
+
+a.nowrap {
+  white-space: nowrap;
+}
