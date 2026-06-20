@@ -103,3 +103,39 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+
+
+.pub-title-line {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.45em;
+  align-items: baseline;
+  line-height: 1.2;
+}
+
+.pub-title-line strong,
+.pub-title-line a {
+  font-size: 14px;
+}
+
+.pub-links {
+  white-space: nowrap;
+}
+
+.info-item {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 4px;
+  align-items: baseline;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+.info-item strong,
+.info-item a {
+  font-size: 14px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

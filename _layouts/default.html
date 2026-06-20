@@ -67,32 +67,27 @@
               {% for cat in post.categories %}
               {% if cat == 'research' %}
 
-              <p style="margin-bottom:18px; line-height:1.2;">
-                <a href="{% if post.website %}{{ post.website }}{% elsif post.arxiv %}{{ post.arxiv }}{% elsif post.pdf %}{{ post.pdf }}{% else %}{{ post.url | relative_url }}{% endif %}">
-                  <strong>{{ post.title }}</strong>
-                </a>
+              <p style="margin-top:0px; margin-bottom:18px; line-height:1.2;">
+                <span class="pub-title-line">
+                  <a href="{% if post.website %}{{ post.website }}{% elsif post.arxiv %}{{ post.arxiv }}{% elsif post.pdf %}{{ post.pdf }}{% else %}{{ post.url | relative_url }}{% endif %}">
+                    <strong>{{ post.title }}</strong>
+                  </a>
 
-                {% if post.arxiv %}
-                &nbsp; [<a href="{{ post.arxiv }}">arXiv</a>]
-                {% endif %}
+                  <span class="pub-links">
+                    {% if post.arxiv %}
+                    [<a href="{{ post.arxiv }}">arXiv</a>]
+                    {% endif %}
 
-                {% if post.pdf %}
-                &nbsp; [<a href="{{ post.pdf }}">PDF</a>]
-                {% endif %}
+                    {% if post.pdf %}
+                    [<a href="{{ post.pdf }}">PDF</a>]
+                    {% endif %}
 
-                {% if post.code %}
-                &nbsp; [<a href="{{ post.code }}">GitHub</a>]
-                {% endif %}
+                    {% if post.code %}
+                    [<a href="{{ post.code }}">GitHub</a>]
+                    {% endif %}
+                  </span>
+                </span>
 
-                {% if post.slides %}
-                &nbsp; [<a href="{{ post.slides }}">Slides</a>]
-                {% endif %}
-
-                {% if post.poster %}
-                &nbsp; [<a href="{{ post.poster }}">Poster</a>]
-                {% endif %}
-
-                <br>
                 {{ post.authors }}
                 <br>
                 <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
@@ -135,22 +130,7 @@
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:20px 2.5% 5px 2.5%;width:100%;vertical-align:middle">
-              <h2>Service</h2>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:5px 2.5%;width:100%;vertical-align:middle">
-              <p>
-                <strong>[Conference Reviewer]</strong>
-                ICLR '25-'26, ICML '26, COLM '26, NeurIPS '26.
-              </p>
-            </td>
-          </tr>
-        </table>
+        
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -179,6 +159,23 @@
               <p>
                 <strong>[Spring, 2024]</strong>
                 Probability Theory, Teaching Assistant, Shanghai Jiao Tong University.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:20px 2.5% 5px 2.5%;width:100%;vertical-align:middle">
+              <h2>Service</h2>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:5px 2.5%;width:100%;vertical-align:middle">
+              <p>
+                <strong>[Conference Reviewer]</strong>
+                ICLR '25-'26, ICML '26, COLM '26, NeurIPS '26.
               </p>
             </td>
           </tr>
