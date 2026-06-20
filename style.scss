@@ -110,32 +110,13 @@ span.highlight {
   flex-wrap: wrap;
   column-gap: 0.45em;
   align-items: baseline;
-  line-height: 1.2;
 }
 
-.pub-title-line strong,
-.pub-title-line a {
-  font-size: 14px;
+.pub-title-main {
+  min-width: 0;
+  font-weight: 700;
 }
 
 .pub-links {
-  white-space: nowrap;
-}
-
-.info-item {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  column-gap: 4px;
-  align-items: baseline;
-  margin-top: 0px;
-  margin-bottom: 14px;
-}
-
-.info-item strong,
-.info-item a {
-  font-size: 14px;
-}
-
-.nowrap {
   white-space: nowrap;
 }

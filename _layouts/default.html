@@ -67,9 +67,9 @@
               {% for cat in post.categories %}
               {% if cat == 'research' %}
 
-              <p style="margin-top:0px; margin-bottom:18px; line-height:1.2;">
-                <span class="pub-title-line">
-                  <a href="{% if post.website %}{{ post.website }}{% elsif post.arxiv %}{{ post.arxiv }}{% elsif post.pdf %}{{ post.pdf }}{% else %}{{ post.url | relative_url }}{% endif %}">
+              <div style="margin-top:0px; margin-bottom:18px; line-height:1.2;">
+                <div class="pub-title-line">
+                  <a class="pub-title-main" href="{% if post.website %}{{ post.website }}{% elsif post.arxiv %}{{ post.arxiv }}{% elsif post.pdf %}{{ post.pdf }}{% else %}{{ post.url | relative_url }}{% endif %}">
                     <strong>{{ post.title }}</strong>
                   </a>
 
@@ -85,13 +85,25 @@
                     {% if post.code %}
                     [<a href="{{ post.code }}">GitHub</a>]
                     {% endif %}
-                  </span>
-                </span>
 
-                {{ post.authors }}
-                <br>
-                <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
-              </p>
+                    {% if post.slides %}
+                    [<a href="{{ post.slides }}">Slides</a>]
+                    {% endif %}
+
+                    {% if post.poster %}
+                    [<a href="{{ post.poster }}">Poster</a>]
+                    {% endif %}
+                  </span>
+                </div>
+
+                <div>
+                  {{ post.authors }}
+                </div>
+
+                <div>
+                  <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+                </div>
+              </div>
 
               {% endif %}
               {% endfor %}
