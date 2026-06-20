@@ -4,7 +4,7 @@ title:  "Scaling Point-based Differentiable Rendering for Large Scale 3D Reconst
 date:   2025-04-18
 categories: research
 authors: "Hexu Zhao, Xiaoteng Liu, Xiwen Min, <strong>Jianhao Huang</strong>, Youming Deng, Yanfei Li, Ang Li, Jinyang Li, Aurojit Panda"
-venue: "in submission"
+venue: "In Submission"
 arxiv: https://arxiv.org/abs/2512.20017
 code: 
 website: 
