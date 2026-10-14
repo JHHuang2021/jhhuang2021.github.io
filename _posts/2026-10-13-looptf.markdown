@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Learning to Extrapolate in Depth with Looped Transformers"
+date:   2026-10-13
+categories: research
+authors: "Huitao Yang*, <strong>Jianhao Huang*</strong>, Zixuan Wang, Baharan Mirzasoleiman"
+venue: "In submission"
+arxiv: https://arxiv.org/abs/2610.14456
+code: 
+website: 
+---
